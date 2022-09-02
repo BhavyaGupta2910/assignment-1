@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String args[])
+    {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the 1st Angle of Triangle");
+    int a = sc.nextInt();
+     System.out.println("Enter the 2nd Angle of Triangle");
+    int b = sc.nextInt();
+     System.out.println("Enter the 1st Angle of Triangle");
+     int c= sc.nextInt();
+    if(a+b+c==180 && a>0 && b>0 && c>0)
+    System.out.println("Triangle is Possible");
+    else 
+    System.out.println("Triangle is Not possible");
+    
+    }
+}
