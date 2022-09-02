@@ -1,0 +1,18 @@
+//Area Of Square
+import java.util.*;
+public class Main
+{
+    public static void main(String args[])
+    {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the Side of Square");
+    int s = sc.nextInt();
+    int a;
+    a=s*s;
+    System.out.println("Area of Square is " + a);
+    //perimeter
+    int p = 4*s;
+    System.out.println("Perimeter is " + p);
+    
+    }
+}
